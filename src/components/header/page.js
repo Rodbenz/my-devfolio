@@ -10,7 +10,7 @@ export default function Header() {
                         {/* 5555555 */}
                     </div>
                     <div className={"flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"}>
-                        <a href='#home' className='link'>
+                        {/* <a href='#home' className='link'>
                             <Image
                                 src="/logo.svg"
                                 alt="Logo"
@@ -18,7 +18,8 @@ export default function Header() {
                                 height={24}
                                 priority
                             />
-                        </a>
+                        </a> */}
+                        <img className={" w-24 h-24 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"} src="IMG_20230730_194542_745.jpg" alt="Bordered avatar"/>
                     </div>
                     <div className={"absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"}>
                         <div className={"hidden sm:ml-6 sm:block"}>

@@ -29,8 +29,8 @@ export default function Home() {
         </div>
         <div className="fixed top-0 left-0 h-screen w-screen -z-1"></div>
         <Hero />
-        <About clientHeight={clientHeight}/>
-        <Skills/>
+        <About clientHeight={clientHeight} />
+        <Skills />
       </main>
     </div>
   )
