@@ -4,7 +4,7 @@ import Iconskills from './iconskills'
 export default function Skills() {
     return (
         <div className={"w-full min-h-screen relative "}>
-            <div className={" pt-52 pl-0 md:pl-10 xl:pl-32"}>
+            <div className={" pt-96 pl-0 md:pl-10 xl:pl-32"}>
                 <h1 className={"text-fuchsia-800 font-bold text-4xl md:text-6xl xl:text-7xl leading-tight py-10"}>
                     My Skills
                 </h1>
