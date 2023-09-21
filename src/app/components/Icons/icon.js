@@ -1,13 +1,9 @@
-import {
-  IconMail,
-  IconLinkedin,
-  IconInstagram,
-  IconTwitter,
-  IconGithub,
-  IconExternal,
-  IconFacebook,
-} from "@/components/Icons/page";
-
+import IconExternal from "./external";
+import IconFacebook from "./facebook";
+import IconGithub from "./github";
+import IconInstagram from "./instagram";
+import IconMail from "./mail";
+import IconTwitter from "./twitter";
 const Icon = ({ name }) => {
   switch (name) {
     case "mail":

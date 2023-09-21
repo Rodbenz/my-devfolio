@@ -1,3 +1,5 @@
+
+
 export const METADATA = {
   author: "Shubh Porwal",
   title: "Portfolio | Shubh Porwal",
@@ -23,7 +25,7 @@ export const METADATA = {
 
 export const MENULINKS = [
   {
-    name: "Home",
+    name: 'Home',
     ref: "home",
   },
   {

@@ -1,11 +1,11 @@
 "use client"
-import About from "@/components/About/page";
-import Hero from "@/components/Hero/page";
-import Skills from "@/components/Skills/page";
-import Header from "@/components/header/page";
 import React from "react";
-import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import gsap from "gsap";
+import Header from "./components/header/page";
+import Hero from "./components/Hero/page";
+import About from "./components/About/page";
+import Skills from "./components/Skills/page";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
 export default function Home() {

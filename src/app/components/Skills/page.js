@@ -1,9 +1,10 @@
 import React from 'react'
 import Iconskills from './iconskills'
+import { MENULINKS } from '@/app/constants'
 
 export default function Skills() {
     return (
-        <div className={"w-full min-h-screen relative "}>
+        <section id={MENULINKS[1].ref} className={"w-full min-h-screen relative "}>
             <div className={" pt-40 pl-0 md:pl-10 xl:pl-32"}>
                 <h1 className={"text-fuchsia-800 font-bold text-4xl md:text-6xl xl:text-7xl leading-tight py-10"}>
                     My Skills
@@ -16,6 +17,6 @@ export default function Skills() {
                 </h1>
                 <Iconskills/>
             </div>
-        </div>
+        </section>
     )
 }
