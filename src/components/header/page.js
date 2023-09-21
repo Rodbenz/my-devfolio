@@ -19,7 +19,7 @@ export default function Header() {
                                 priority
                             />
                         </a> */}
-                        <img className={" w-24 h-24 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"} src="IMG_20230730_194542_745.jpg" alt="Bordered avatar"/>
+                        <img className={" w-14 h-14 md:w-24 md:h-24 p-1 rounded-full ring-2 ring-gray-300 dark:ring-gray-500"} src="IMG_20230730_194542_745.jpg" alt="Bordered avatar"/>
                     </div>
                     <div className={"absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"}>
                         <div className={"hidden sm:ml-6 sm:block"}>
