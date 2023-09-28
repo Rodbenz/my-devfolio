@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon } from '../Icons/page'
+import  Icon  from '../Icons/icon'
 import { SOCIAL_LINKS } from '@/app/constants'
 
 export default function Profile() {

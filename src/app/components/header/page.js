@@ -6,7 +6,7 @@ import { useTranslation } from "next-i18next";
 
 
 export default function Header() {
-    const { t } = useTranslation("");
+    // const { t } = useTranslation("");
 
     const [islanguage, setIsLanguage] = React.useState(false);
 
@@ -48,7 +48,7 @@ export default function Header() {
                         <div className={"hidden sm:ml-6 sm:block"}>
                             <div className="flex space-x-4 items-center">
                                 {MENULINKS.map((el, index) => (
-                                    <a href={`#${el.ref}`} key={index} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-lg font-bold" aria-current="page">{t(el.name)}</a>
+                                    <a href={`#${el.ref}`} key={index} className="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-lg font-bold" aria-current="page">{(el.name)}</a>
                                 ))}
                             </div>
                         </div>
