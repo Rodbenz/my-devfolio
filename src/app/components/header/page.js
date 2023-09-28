@@ -6,7 +6,6 @@ import { useTranslation } from "next-i18next";
 
 
 export default function Header() {
-    const router = useRouter();
     const { t } = useTranslation("");
 
     const [islanguage, setIsLanguage] = React.useState(false);
@@ -14,14 +13,15 @@ export default function Header() {
     const onHandlelanguage = (e) => {
         setIsLanguage(!islanguage)
     }
+
     React.useEffect(() => {
         if (islanguage) {
-            
+
         }
     }, [islanguage])
     return (
         <nav className={"w-full border fixed top-0 py-8 select-none bg-gradient-to-b from-gray-900 transition-all duration-300 z-40"}>
-            <div className={"absolute mt-[-30px] right-2 z-50 space-x-1"}>
+            {/* <div className={"absolute mt-[-30px] right-2 z-50 space-x-1"}>
                 <label
                     className={"inline-block pl-[0.15rem] hover:cursor-pointer text-white"}
                     for="flexSwitchCheckDefault"
@@ -35,7 +35,7 @@ export default function Header() {
                     id="flexSwitchCheckDefault"
                     onChange={(e) => onHandlelanguage(e)}
                 />
-            </div>
+            </div> */}
             <div className={"mx-auto max-w-7xl px-2 sm:px-6 lg:px-8"}>
                 <div className={"relative flex h-16 items-center "}>
                     <div className={"absolute inset-y-0 left-0 flex items-center sm:hidden"}>

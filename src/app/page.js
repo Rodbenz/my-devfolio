@@ -6,6 +6,7 @@ import Hero from "./components/Hero/page";
 import About from "./components/About/page";
 import Skills from "./components/Skills/page";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Project from "./components/Project/page";
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
 export default function Home() {
@@ -31,6 +32,7 @@ export default function Home() {
         <Hero />
         <About clientHeight={clientHeight} />
         <Skills />
+        <Project/>
       </main>
     </div>
   )
