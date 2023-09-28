@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import Iconskills from './iconskills'
 import { MENULINKS } from '@/app/constants'
