@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import CarAnimation from '../../../../public/lottie/car-animation.json';
 import Lottie from 'lottie-web';

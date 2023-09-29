@@ -4,7 +4,8 @@ import { gsap, Linear } from "gsap";
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
-export default function About({ clientHeight }) {
+
+export default function About(props) {
     const quoteRef = React.useRef(null);
     const targetSection = React.useRef(null);
 
@@ -44,7 +45,7 @@ export default function About({ clientHeight }) {
     }, [quoteRef, targetSection]);
     return (
         <section className={"w-full relative select-none min-h-screen"} ref={targetSection}>
-            <div className={`${clientHeight > 650 ? "pt-60 pb-16 px-28" : "pt-80 pb-72"} items-center justify-center`}>
+            <div className={`${props.clientHeight > 650 ? "pt-60 pb-16 px-28" : "pt-80 pb-72"} items-center justify-center`}>
                 <h1 ref={quoteRef} className={"text-yellow-50 text-[2.70rem] max-sm:text-xl md:text-6xl lg:text-[4rem] text-center font-bold"}>
                     <span className={"about-1 leading-tight"}>
                         I&apos;m a passionate Engineer who&apos;s focused on building
