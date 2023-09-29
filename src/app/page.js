@@ -35,7 +35,7 @@ export default function Home() {
         <About clientHeight={clientHeight} />
         <Skills />
         <Project/>
-        {/* <Contact/> */}
+        <Contact/>
         <Footer/>
       </main>
     </div>
