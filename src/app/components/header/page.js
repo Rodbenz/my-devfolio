@@ -1,5 +1,5 @@
 "use client"
-import { MENULINKS } from '@/app/constants';
+import { MENULINKS } from '../../../../libs/constants';
 import React from 'react';
 import { useRouter } from "next/navigation";
 import { useTranslation } from "next-i18next";

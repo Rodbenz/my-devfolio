@@ -1,4 +1,4 @@
-import { TYPED_STRINGS } from '@/app/constants'
+import { TYPED_STRINGS } from '../../../../libs/constants'
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import  Icon  from '../Icons/icon'
-import { SOCIAL_LINKS } from '@/app/constants'
+import { SOCIAL_LINKS } from '../../../../libs/constants'
 
 export default function Profile() {
     return (

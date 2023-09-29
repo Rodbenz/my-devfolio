@@ -1,4 +1,4 @@
-import { SKILLS } from '@/app/constants'
+import { SKILLS } from '../../../../libs/constants'
 import Image from 'next/image'
 import React from 'react'
 

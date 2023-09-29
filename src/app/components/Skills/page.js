@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Iconskills from './iconskills'
-import { MENULINKS } from '@/app/constants'
+import { MENULINKS } from '../../../../libs/constants'
 import Lottie from 'lottie-web';
 import linneAnimation from '../../../../public/lottie/line-animation.json'
 

@@ -1,4 +1,4 @@
-import { MENULINKS } from '@/app/constants'
+import { MENULINKS } from '../../../../libs/constants'
 import React from 'react'
 import ProjectCard from './ProjectCard'
 

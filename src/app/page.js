@@ -7,6 +7,8 @@ import About from "./components/About/page";
 import Skills from "./components/Skills/page";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Project from "./components/Project/page";
+import Contact from "./components/contact/page";
+import Footer from "./components/footer/page";
 gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
 export default function Home() {
@@ -33,6 +35,8 @@ export default function Home() {
         <About clientHeight={clientHeight} />
         <Skills />
         <Project/>
+        {/* <Contact/> */}
+        <Footer/>
       </main>
     </div>
   )

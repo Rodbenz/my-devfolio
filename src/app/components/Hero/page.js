@@ -1,5 +1,5 @@
 'use client'
-import { MENULINKS, TYPED_STRINGS } from '@/app/constants'
+import { MENULINKS, TYPED_STRINGS } from '../../../../libs/constants'
 import React from 'react'
 import style from '../Hero/Hero.module.css'
 import lottie from "lottie-web";
