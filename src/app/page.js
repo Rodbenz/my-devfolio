@@ -34,7 +34,7 @@ export default function Home() {
         <Hero />
         <About clientHeight={clientHeight} />
         <Skills />
-        {/* <Project/> */}
+        <Project/>
         <Contact/>
         <Footer/>
       </main>
