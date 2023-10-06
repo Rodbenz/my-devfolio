@@ -63,7 +63,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/Rodbenz",
   },
   {
     name: "instagram",
