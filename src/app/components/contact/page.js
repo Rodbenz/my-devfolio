@@ -21,7 +21,7 @@ export default function Contact() {
     };
 
     return (
-        <section id={MENULINKS[3].ref} className={"w-full min-h-screen relative"}>
+        <section id={MENULINKS[2].ref} className={"w-full min-h-screen relative"}>
             <div className={" pt-40 pl-0 md:pl-10 xl:pl-32"}>
                 <h1 className={"text-fuchsia-800 font-bold text-4xl md:text-6xl xl:text-7xl leading-tight py-10"}>
                     Contact
